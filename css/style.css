@@ -14,12 +14,12 @@ body {
 }
 main h2 {
   text-align: center;
-  font-size: 50px;
+  font-size: 60px;
   margin-top: 40px;
   margin-bottom: 80px;
 }
 header {
-  height: 900px;
+  height: 750px;
   background: url(../images/bgpng.png) no-repeat right center/cover;
 }
 header .innerWrap {
@@ -44,18 +44,34 @@ header nav {
 header nav ul {
   display: flex;
   justify-content: space-between;
-  width: 800px;
-  height: 80px;
+  width: 1400px;
+  height: 120px;
   background-color: #ffffff;
   margin: 0 auto;
   padding: 10px 20px;
   border-bottom-right-radius: 30px;
   border-bottom-left-radius: 30px;
-  box-shadow:0px 0px 20px rgb(255, 255, 255)
+  box-shadow:0px 0px 20px rgb(255, 255, 255);
 }
 .logo {
   padding-right: 200px;
   }
+
+  .header1 table{
+    display: flex;
+    justify-content: space-between;
+    width: 1400px;
+    height: 600px;    
+  }
+  .header1text{
+    color:#ffffff;
+    font-size: 35px;
+    width: 480px;
+    margin: 200px 100px 100px 100px;
+    line-height:48px;
+  }
+
+  .headerillust{ margin: 200px 0px 100px 0px;}
 
 header nav ul li {
   justify-content: center;
@@ -71,7 +87,7 @@ header nav ul li a:hover {
 
 .products {
  text-align: center;
-
+ padding-top: 60px;
 }
 
 .products img {
@@ -79,17 +95,22 @@ header nav ul li a:hover {
 }
 
 .applications {
-  text-align: center;
+  text-align:left;
   margin: 0 auto;
   padding: 30px 100px 30px 100px;
-  width: 80%;
+  width: 100%;
   background: url(../images/bg02.jpg) no-repeat right center/cover;
   border-radius: 30px;
   line-height:30px;
+  padding-top: 100px;
+ 
  }
  .aptext {
-  width: 50% ;
+  width: 80% ;
   margin: 0 auto;
+  font-size: 33px;
+  line-height:45px;
+  text-align:left;
  } 
 
  .about {
@@ -99,17 +120,22 @@ header nav ul li a:hover {
  .about section{
   flex-basis: 50%;
   width: 90%;
-  padding: 30px 50px 100px 50px;
-  line-height:30px;
+  line-height:40px;
   background: url(../images/bg02.jpg) no-repeat right center/cover;
  }
  .about h3{
   font-size: 30px;
-  padding: 30px ;
+  padding:0px ;
  }
+ .about h1{
+  padding:30px 0px 30px 0px;
+  font-size: 40px;}
  .about p{
-  width: 60%;
+  width: 110%;
   margin: 0 auto ;
+  font-size: 28px;
+  line-height:40px;
+  text-align:left;
  }
 
  .history{
@@ -117,6 +143,7 @@ header nav ul li a:hover {
   width: 90%;
   margin: 0 auto;
   display: block;
+  text-align:left;
   
  }
  .about_paper { 
@@ -144,13 +171,17 @@ header nav ul li a:hover {
 
  .severs{
   text-align: center;
+  padding: 80px 0px 0px 0px;
+ }
+ .severs h1{
+  font-size: 50px;
  }
  .severs h3{
   font-size: 25px;
-  padding: 0px 100px 30px 100px;
+  
  }
  .severs img{
-  width: 90%;
+  width: 70%;
  }
   
  .contact{
@@ -170,7 +201,7 @@ header nav ul li a:hover {
   }
 
 .totop {
-  position:fixed; top:80%; left:80%;
+  position:fixed; top:80%; left:90%;
   
 }
 
