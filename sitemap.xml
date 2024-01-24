@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="https://ccstweb.github.io/cst">
-  <url>
-    <loc>https://ccstweb.github.io/cst</loc>
-    <lastmod>2023-01-01</lastmod>
-  </url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://ccstweb.github.io/cst</loc>
+        <lastmod>2024-01-24T12:00:00+00:00</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.8</priority>
+    </url>
 </urlset>
