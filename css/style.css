@@ -1,311 +1,354 @@
 @charset "utf-8";
+
 body {
-  font-family: 'Kosugi', sans-serif;
-  font-size: 18px;
-  color: #0957a4;
+    font-family: 'Kosugi', sans-serif;
+    font-size: 18px;
+    color: #0957a4;
 }
+
 .ffJosefin {
-  font-family: 'Kosugi', sans-serif;
+    font-family: 'Kosugi', sans-serif;
 }
+
 .innerWrap {
-  width: 1240px;
-  margin: 0 auto;
-  padding: 80px 20px 0;
+    width: 1240px;
+    margin: 0 auto;
+    padding: 80px 20px 0;
 }
+
 main h2 {
-  text-align: center;
-  font-size: 60px;
-  margin-top: 40px;
-  margin-bottom: 80px;
+    text-align: center;
+    // font-size: 60px;
+    margin-top: 40px;
+    margin-bottom: 80px;
 }
+
 header {
-  height: 750px;
-  background: url(../images/bgpng.png) no-repeat right center/cover;
+    height: 750px;
+    background: url(../images/bgpng.png) no-repeat right center/cover;
 }
-header .innerWrap {
 
-  position: relative;
-}
-header h1 {
-  padding-top: 120px;
-}
-header .scroll {
-  left: 0;
-  bottom: 0;
-  width: 100%;
-}
-header nav {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 100;
-}
-header nav ul {
-  display: flex;
-  justify-content: space-between;
-  width: 1400px;
-  height: 120px;
-  background-color: #ffffff;
-  margin: 0 auto;
-  padding: 10px 20px;
-  border-bottom-right-radius: 30px;
-  border-bottom-left-radius: 30px;
-  box-shadow:0px 0px 20px rgb(255, 255, 255);
-}
+    header .innerWrap {
+        position: relative;
+    }
+
+    header h1 {
+        padding-top: 120px;
+    }
+
+    header .scroll {
+        left: 0;
+        bottom: 0;
+        width: 100%;
+    }
+
+    header nav {
+//        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 100;
+    }
+
+        header nav ul {
+            display: flex;
+            justify-content: space-between;
+            width: 1400px;
+            height: 120px;
+            background-color: #ffffff;
+            margin: 0 auto;
+            padding: 10px 20px;
+            border-bottom-right-radius: 30px;
+            border-bottom-left-radius: 30px;
+            box-shadow: 0px 0px 20px rgb(255, 255, 255);
+        }
+
 .logo {
-  padding-right: 200px;
-  }
+    padding-right: 200px;
+}
 
-  .header1 table{
+.header1 table {
     display: flex;
     justify-content: space-between;
     width: 1400px;
-    height: 600px;    
-  }
-  .header1text{
-    color:#ffffff;
+    height: 600px;
+}
+
+.header1text {
+    color: #ffffff;
     font-size: 35px;
     width: 480px;
     margin: 200px 100px 100px 100px;
-    line-height:48px;
-  }
+    line-height: 48px;
+}
 
-  .headerillust{ margin: 200px 0px 100px 0px;}
+.headerillust {
+    margin: 200px 0px 100px 0px;
+}
 
 header nav ul li {
-  justify-content: center;
-  align-self: center;
+    justify-content: center;
+    align-self: center;
 }
 
-header nav ul li a:hover {
-  text-decoration: underline;
+    header nav ul li a:hover {
+        text-decoration: underline;
+    }
 
-}
 .site-header {
-  margin: 0 0 0 0px;}
+    margin: 0 0 0 0px;
+}
 
 .products {
- text-align: center;
- padding-top: 60px;
+    text-align: center;
+    padding-top: 60px;
 }
 
-.products img {
-  width: 80%;
-}
+    .products img {
+        width: 80%;
+    }
 
 .applications {
-  text-align:left;
-  margin: 0 auto;
-  padding: 30px 100px 30px 100px;
-  width: 100%;
-  background: url(../images/bg02.jpg) no-repeat right center/cover;
-  border-radius: 30px;
-  line-height:30px;
-  padding-top: 100px;
- 
- }
- .aptext {
-  width: 80% ;
-  margin: 0 auto;
-  font-size: 33px;
-  line-height:45px;
-  text-align:left;
- } 
+    text-align: left;
+    margin: 0 auto;
+    padding: 30px 100px 30px 100px;
+    width: 100%;
+    background: url(../images/bg02.jpg) no-repeat right center/cover;
+    border-radius: 30px;
+    line-height: 30px;
+    padding-top: 100px;
+}
 
- .about {
-  text-align: center;
- }
+.aptext {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 33px;
+    line-height: 45px;
+    text-align: left;
+}
 
- .about section{
-  flex-basis: 50%;
-  width: 90%;
-  line-height:40px;
-  background: url(../images/bg02.jpg) no-repeat right center/cover;
- }
- .about h3{
-  font-size: 30px;
-  padding:0px ;
- }
- .about h1{
-  padding:30px 0px 30px 0px;
-  font-size: 40px;}
- .about p{
-  width: 110%;
-  margin: 0 auto ;
-  font-size: 28px;
-  line-height:40px;
-  text-align:left;
- }
+.about {
+    text-align: center;
+}
 
- .history{
-  padding: 30px 100px 30px 100px;
-  width: 90%;
-  margin: 0 auto;
-  display: block;
-  text-align:left;
-  
- }
- .about_paper { 
- 
-  margin: 0 auto;
-  padding: 30px 30px 100px 30px;
-  background-color: #bfeff9;
-  border-radius: 30px; 
-  }
+    .about section {
+        flex-basis: 50%;
+        width: 90%;
+        line-height: 40px;
+        background: url(../images/bg02.jpg) no-repeat right center/cover;
+    }
 
-  .about_paper img{
-    margin: 10px 5px 10px 5px;
-  
-    } 
+    .about h3 {
+        font-size: 30px;
+        padding: 0px;
+    }
 
-  .about_paper td img{
-  width: 90%;
-  } 
-   
-  .abouths {
+    .about h1 {
+        padding: 30px 0px 30px 0px;
+        font-size: 40px;
+    }
+
+    .about p {
+        width: 110%;
+        margin: 0 auto;
+        font-size: 28px;
+        line-height: 40px;
+        text-align: left;
+    }
+
+.history {
+    padding: 30px 100px 30px 100px;
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+    text-align: left;
+}
+
+.about_paper {
+    margin: 0 auto;
+    padding: 30px 30px 100px 30px;
+    background-color: #bfeff9;
+    border-radius: 30px;
+}
+
+    .about_paper img {
+        margin: 10px 5px 10px 5px;
+    }
+
+    .about_paper td img {
+        width: 90%;
+    }
+
+.abouths {
     flex-basis: 800px;
     display: flex;
-   
-  }
+}
 
- .severs{
-  text-align: center;
-  padding: 80px 0px 0px 0px;
- }
- .severs h1{
-  font-size: 50px;
- }
- .severs h3{
-  font-size: 25px;
-  
- }
- .severs img{
-  width: 70%;
- }
-  
- .contact{
-  text-align: center;
-  vertical-align:middle;
- }
+.severs {
+    text-align: center;
+    padding: 80px 0px 0px 0px;
+}
 
- .contact {
-  text-align: center;
-  vertical-align:middle;
-  padding: 0px 100px 80px 100px;
- }
+    .severs h1 {
+        font-size: 50px;
+    }
 
- table{
-  margin-left:auto; 
-  margin-right:auto;
-  }
+    .severs h3 {
+        font-size: 25px;
+    }
+
+    .severs img {
+        width: 70%;
+    }
+
+.contact {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.contact {
+    text-align: center;
+    vertical-align: middle;
+    padding: 0px 100px 80px 100px;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .totop {
-  position:fixed; top:80%; left:90%;
-  
+    position: fixed;
+    top: 80%;
+    left: 90%;
 }
 
 footer {
-  background-color: #0e192d;
-  color: #f3e9e5;
-  padding: 14px 10px 20px;
-  text-align: center;
+    background-color: #0e192d;
+    color: #f3e9e5;
+    padding: 14px 10px 20px;
+    text-align: center;
 }
 
 
 @media screen and (max-width: 800px) {
-  .dateSec .layoutWrap {
-    display: block;
-  }
-  .logo {
-    padding-right: 0px;
-    }
-  .severs img{
-     width: 100%;
-   }
-   .about_paper img{
-    width: 50%;
-    } 
-  
-  .contact{
-    display: block;
-  }
-
-  .innerWrap,
-  header nav ul,
-  form {
-    width: 100%;
-  }
-  header h1 img,
-  .msgSec p.illust img,
-  .dateSec .layoutWrap > p img {
-    width: 100%;
-  }
-  .abouths {
-    display:inline
+    .dateSec .layoutWrap {
+        display: block;
     }
 
-  .msgSec p.illust::before {
-    left: -16px;
-    bottom: -80px;
-    transform: scale(0.7);
-  }
-  .msgSec p.illust::after {
-    right: -16px;
-    bottom: -80px;
-    transform: scale(0.7);
-  }
-  body {
-    font-size: 16px;
-  }
-  main h2 {
-    font-size: 44px;
-    margin-bottom: 60px;
-  }
-  header {
-    background: url(../images/bgpng.png) no-repeat right top/cover;
-  }
-  header .innerWrap {
-    height: 90vh;
-  }
-  header h1 {
-    padding-top: 80px;
-  }
-  .msgSec p {
-    text-align: left;
-  }
-  .dateSec .dateDetailSec {
-    font-size: 36px;
-    margin: 0 0 0 25%;
-    padding: 20px 20px;
-  }
-  .word1 {font-size: 25px;}
-  .word2 {font-size: 20px;}
-  .word3 {font-size: 30px;}
-  .dateSec .layoutWrap > div {
-    padding-top: 0;
-    transform: translateY(-50px);
-  }
-  .accessSec h3 {
-    font-size: 44px;
-  }
-  .accessSec {
-    margin: 32px 0 0 32px;
-  }
-  .dateSec {
-    padding-bottom: 40px;
-    margin-bottom: 250px;
-  }
-  
+    .logo {
+        padding-right: 0px;
+    }
+
+    .severs img {
+        width: 100%;
+    }
+
+    .about_paper img {
+        width: 50%;
+    }
+
+    .contact {
+        display: block;
+    }
+
+    .innerWrap,
+    header nav ul,
+    form {
+        width: 100%;
+    }
+
+    header h1 img,
+    .msgSec p.illust img,
+    .dateSec .layoutWrap > p img {
+        width: 100%;
+    }
+
+    .abouths {
+        display: inline
+    }
+
+    .msgSec p.illust::before {
+        left: -16px;
+        bottom: -80px;
+        transform: scale(0.7);
+    }
+
+    .msgSec p.illust::after {
+        right: -16px;
+        bottom: -80px;
+        transform: scale(0.7);
+    }
+
+    body {
+        font-size: 16px;
+    }
+
+    main h2 {
+        font-size: 44px;
+        margin-bottom: 60px;
+    }
+
+    header {
+        background: url(../images/bgpng.png) no-repeat right top/cover;
+    }
+
+        header .innerWrap {
+            height: 90vh;
+        }
+
+        header h1 {
+            padding-top: 80px;
+        }
+
+    .msgSec p {
+        text-align: left;
+    }
+
+    .dateSec .dateDetailSec {
+        font-size: 36px;
+        margin: 0 0 0 25%;
+        padding: 20px 20px;
+    }
+
+    .word1 {
+        font-size: 25px;
+    }
+
+    .word2 {
+        font-size: 20px;
+    }
+
+    .word3 {
+        font-size: 30px;
+    }
+
+    .dateSec .layoutWrap > div {
+        padding-top: 0;
+        transform: translateY(-50px);
+    }
+
+    .accessSec h3 {
+        font-size: 44px;
+    }
+
+    .accessSec {
+        margin: 32px 0 0 32px;
+    }
+
+    .dateSec {
+        padding-bottom: 40px;
+        margin-bottom: 250px;
+    }
 }
 
 @media screen and (max-width: 640px) {
-  .logo {
-      padding-right: -100px;
-      width:-100px;
-      }
-    .logo img{
-      width:100% ;
-      }
-     
+    .logo {
+        padding-right: -100px;
+        width: -100px;
+    }
+
+        .logo img {
+            width: 100%;
+        }
 }
