@@ -1,0 +1,134 @@
+@charset "utf-8";
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 60px;
+}
+
+h2 {
+    font-size: 35px;
+    line-height: 48px;
+}
+
+h3 {
+    font-size: 28px;
+    line-height: 40px;
+}
+
+.introTxt {
+    color: #ffffff;
+}
+
+.nav-item {
+    margin: 5px 0px 5px 20px;
+}
+
+.navBarBg-nouse {
+    background: url(../images/bgpng.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    height: 750px;
+}
+
+.navBar {
+    position: fixed;
+    top: 0;
+    background-color: #ffffff;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    box-shadow: 0px 0px 20px rgb(255, 255, 255);
+}
+
+.intro {
+    background: url(../images/bgpng.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    // height: 750px;
+}
+
+.introRow {
+    padding-top: 300px;
+}
+
+.introDiv {
+    padding: 0px 80px;
+}
+
+.introDivL {
+    padding: 0px 100px;
+}
+
+.introDivR {
+    padding: 0px 20px 0px 20px;
+}
+
+.contentRow {
+    padding-top: 200px;
+}
+
+.contentRowAbout {
+    padding-top: 50px;
+}
+
+.aboutDiv {
+    padding: 0px 80px;
+}
+
+.techBg {
+    background: url(../images/bg02.jpg) right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    // min-height: 100vh;
+    // display: flex;
+}
+
+.subTitle {
+    padding-top: 50px;
+}
+
+.subTitleTxt {
+    text-align: center;
+}
+
+.divService {
+    text-align: center;
+}
+
+.serviceImg {
+    width: 70%;
+}
+
+.contactDiv {
+    text-align: center;
+}
+
+.contactLogo {
+    width: 150px;
+}
+
+@media screen and (max-width: 800px) {
+    .serviceImg {
+        width: 100%;
+    }
+}
+
+.toTop {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+
+.toTop img {
+    width: 80px;
+}
+
+footer {
+    margin-top: 90px;
+}
